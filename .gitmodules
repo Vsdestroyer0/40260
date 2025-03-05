@@ -4,3 +4,6 @@
 [submodule "Poema"]
 	path = Poema
 	url = https://github.com/Vsdestroyer0/Poema.git
+[submodule "Ecommerce"]
+	path = Ecommerce
+	url = https://github.com/Vsdestroyer0/Ecommerce.git
