@@ -4,27 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica imágenes</title>
-
-    <style>
-
-        img{
-            box-shadow: 10px 10px 20px  red;
-        }
-
-        figure{
-            text-align: center;
-            width: 300px;
-            display: inline-block
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="pagina05.css">
+    <script src="pagina05.js"></script>
 </head>
+
 <body>
- 
+    <script type="module" src="pagina05.js"></script>
+
 
     <h1>Random Picture</h1>
-  <figure>
+    <figure>
         <img src="https://picsum.photos/id/2/200/200" alt="">
         <figcaption>
             John
@@ -33,12 +22,8 @@
 
 
     <div id="demo"></div>
+    <button id="boton">Click me</button>
 
-    <script>
-        let ejemplo = document.getElementById("demo");
-        console.log(ejemplo);
-        ejemplo.innerHTML = "hola";
-    </script>
 
 </body>
 </html>
