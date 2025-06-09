@@ -7,3 +7,6 @@
 [submodule "Ecommerce"]
 	path = Ecommerce
 	url = https://github.com/Vsdestroyer0/Ecommerce.git
+[submodule "ordinario-ftw"]
+	path = ordinario-ftw
+	url = https://github.com/Vsdestroyer0/ordinario-ftw.git
